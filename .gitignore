@@ -1,0 +1,39 @@
+# --- Python / Django ---
+*.pyc
+__pycache__/
+db.sqlite3
+*.log
+.env
+*.pot
+*.py[cod]
+*.swp
+media/
+staticfiles/
+local_settings.py
+
+# If using virtual environment in project directory
+venv/
+.env/
+
+# Django migrations
+*/migrations/*__pycache__/
+*/migrations/*.pyc
+*/migrations/*.pyo
+*/migrations/*.pyd
+*/migrations/*.sqlite3
+*/migrations/*.log
+*/migrations/*.py
+
+# --- React / Node ---
+node_modules/
+build/
+dist/
+.env
+.npm
+package-lock.json
+.yarn
+.yarn-cache/
+
+# --- System files ---
+.DS_Store
+Thumbs.db
